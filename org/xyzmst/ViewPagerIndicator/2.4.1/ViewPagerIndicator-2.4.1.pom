@@ -6,7 +6,4 @@
   <artifactId>ViewPagerIndicator</artifactId>
   <version>2.4.1</version>
   <packaging>aar</packaging>
-  <name>xyzmst/ViewPagerIndicator</name>
-  <description> ViewPagerIndicator to gradle project </description>
-  <inceptionYear>2016</inceptionYear>
 </project>
