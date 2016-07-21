@@ -14,5 +14,6 @@ And you can use the artifacts like this:
 dependencies {
     compile 'org.xyzmst:wxsdk:1.0'
     compile 'org.xyzmst:alisdk:1.0'
+    compile 'org.xyzmst:ViewPagerIndicator:2.4.1'
 }
 ```
