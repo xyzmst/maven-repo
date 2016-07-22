@@ -15,5 +15,9 @@ dependencies {
     compile 'org.xyzmst:wxsdk:1.0'
     compile 'org.xyzmst:alisdk:1.0'
     compile 'org.xyzmst:ViewPagerIndicator:2.4.1'
+    compile 'org.xyzmst:DatePicker:2.2.0'
 }
 ```
+
+### 说明
+DatePicker ： 日期选择
