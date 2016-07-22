@@ -6,5 +6,4 @@
   <artifactId>DatePicker</artifactId>
   <version>2.2.0</version>
   <packaging>aar</packaging>
-  <inceptionYear>2016</inceptionYear>
 </project>
