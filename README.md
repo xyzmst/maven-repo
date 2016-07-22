@@ -17,6 +17,7 @@ dependencies {
     compile 'org.xyzmst:ViewPagerIndicator:2.4.1'
     compile 'org.xyzmst:DatePicker:2.2.0'
     compile 'org.xyzmst:materialfilepicker:1.0.8'
+    compile 'de.greenrobot:eventbus:2.2.1'
 }
 ```
 
