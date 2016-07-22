@@ -16,8 +16,10 @@ dependencies {
     compile 'org.xyzmst:alisdk:1.0'
     compile 'org.xyzmst:ViewPagerIndicator:2.4.1'
     compile 'org.xyzmst:DatePicker:2.2.0'
+    compile 'org.xyzmst:materialfilepicker:1.0.8'
 }
 ```
 
 ### 说明
 DatePicker ： 日期选择
+materialfilepicker: 文件选择器
