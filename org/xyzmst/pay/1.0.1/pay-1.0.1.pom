@@ -4,6 +4,6 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.xyzmst</groupId>
   <artifactId>pay</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>aar</packaging>
 </project>
