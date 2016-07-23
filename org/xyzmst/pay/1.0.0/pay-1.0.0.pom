@@ -5,4 +5,5 @@
   <groupId>org.xyzmst</groupId>
   <artifactId>pay</artifactId>
   <version>1.0.0</version>
+  <packaging>aar</packaging>
 </project>
