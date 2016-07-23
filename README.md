@@ -17,12 +17,15 @@ dependencies {
     compile 'org.xyzmst:ViewPagerIndicator:2.4.1'
     compile 'org.xyzmst:DatePicker:2.2.0'
     compile 'org.xyzmst:materialfilepicker:1.0.8'
+    compile 'org.xyzmst:pay:1.0.0'
     compile 'de.greenrobot:eventbus:2.2.1'
+    
 }
 ```
 
 ### 说明
-DatePicker ： 日期选择
-
+pay: 支付集成    
+DatePicker ： 日期选择    
 materialfilepicker: 文件选择器
+
 
