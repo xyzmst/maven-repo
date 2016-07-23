@@ -17,15 +17,14 @@ dependencies {
     compile 'org.xyzmst:ViewPagerIndicator:2.4.1'
     compile 'org.xyzmst:DatePicker:2.2.0'
     compile 'org.xyzmst:materialfilepicker:1.0.8'
-    compile 'org.xyzmst:pay:1.0.0'
+    compile 'org.xyzmst:pay:1.0.2'
     compile 'de.greenrobot:eventbus:2.2.1'
-    
+
 }
 ```
 
 ### 说明
-pay: 支付集成    
-DatePicker ： 日期选择    
-materialfilepicker: 文件选择器
-
-
+- pay: 支付集成
+  1.0.2 修复了 因java中package是关键字，而订单详情的返回值为package ，"Sign=WXPay"无法添加到订单详情导致无法打开微信的问题
+- DatePicker ： 日期选择    
+- materialfilepicker: 文件选择器
