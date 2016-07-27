@@ -20,6 +20,7 @@ dependencies {
     compile 'org.xyzmst:pay:1.0.2'
     compile 'de.greenrobot:eventbus:2.2.1'
     compile 'org.xyzmst:sprinkles:2.1.12'
+    compile 'org.xyzmst:android-gif-drawable:1.1.17'
 }
 ```
 
@@ -29,3 +30,4 @@ dependencies {
 - DatePicker ： 日期选择    
 - materialfilepicker: 文件选择器
 - sprinkles :数据库
+- android-gif-drawable：gif
