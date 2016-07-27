@@ -19,7 +19,7 @@ dependencies {
     compile 'org.xyzmst:materialfilepicker:1.0.8'
     compile 'org.xyzmst:pay:1.0.2'
     compile 'de.greenrobot:eventbus:2.2.1'
-
+    compile 'org.xyzmst:sprinkles:2.1.12'
 }
 ```
 
@@ -28,3 +28,4 @@ dependencies {
   1.0.2 修复了 因java中package是关键字，而订单详情的返回值为package ，"Sign=WXPay"无法添加到订单详情导致无法打开微信的问题
 - DatePicker ： 日期选择    
 - materialfilepicker: 文件选择器
+- sprinkles :数据库
