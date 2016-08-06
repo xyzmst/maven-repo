@@ -17,7 +17,7 @@ dependencies {
     compile 'org.xyzmst:ViewPagerIndicator:2.4.1'
     compile 'org.xyzmst:DatePicker:2.2.0'
     compile 'org.xyzmst:materialfilepicker:1.0.8'
-    compile 'org.xyzmst:pay:1.0.4'
+    compile 'org.xyzmst:pay:1.0.5'
     compile 'de.greenrobot:eventbus:2.2.1'
     compile 'org.xyzmst:sprinkles:2.1.12'
     compile 'org.xyzmst:android-gif-drawable:1.1.17'
