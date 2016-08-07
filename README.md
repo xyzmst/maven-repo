@@ -38,7 +38,8 @@ dependencies {
             android:launchMode="singleTop"/>
 ```
 粘出实现
-```
+
+``` java
 public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
     private static final String TAG = "WXPayEntryActivity";
     private IWXAPI api;
@@ -81,7 +82,7 @@ public class WXPayEntryActivity extends Activity implements IWXAPIEventHandler {
 ```
 
 回调使用
-、、、
+``` java
  @Override
     public void onResume() {
         super.onResume();
@@ -113,7 +114,7 @@ public void onEventMainThread(final PayMessageEvent event) {
         }
 
     }
-、、、
+```
 
 
 - DatePicker ： 日期选择    
