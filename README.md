@@ -21,6 +21,7 @@ dependencies {
     compile 'de.greenrobot:eventbus:2.2.1'
     compile 'org.xyzmst:sprinkles:2.1.12'
     compile 'org.xyzmst:android-gif-drawable:1.1.17'
+    compile 'org.xyzmst:pdf:1.0.4'
 }
 ```
 
@@ -99,16 +100,16 @@ public void onEventMainThread(final PayMessageEvent event) {
         if (event != null) {
             if (event.type == PayType.AliPay) {
                 if (event.code.equals(PayResultCode.ALI_SUCCESS)) {
-                  
+
                 } else {
-                    
+
                 }
             }
             if (event.type == PayType.WeixinPay) {
                 if (event.code.equals(PayResultCode.WX_SUCCESS)) {
-                    
+
                 } else {
-                    
+
                 }
             }
         }
