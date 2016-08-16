@@ -22,6 +22,7 @@ dependencies {
     compile 'org.xyzmst:sprinkles:2.1.12'
     compile 'org.xyzmst:android-gif-drawable:1.1.17'
     compile 'org.xyzmst:pdf:1.0.4'
+    compile 'org.xyzmst:slideswitch:1.0.0'
 }
 ```
 
@@ -122,3 +123,34 @@ public void onEventMainThread(final PayMessageEvent event) {
 - materialfilepicker: 文件选择器
 - sprinkles :数据库
 - android-gif-drawable：gif
+
+- slideswitch
+使用说明：
+xml
+
+    <com.leaking.slideswitch.SlideSwitch
+        android:layout_width="100dip"
+        android:layout_height="120dip"
+        slideswitch:isOpen="false"
+        slideswitch:shape="circle"
+        slideswitch:themeColor="#f200aa96" >
+    </com.leaking.slideswitch.SlideSwitch>
+初始化
+
+ bulletSwitch.setState(true);
+监听事件
+
+   updateSwitch.setSlideListener(new SlideListener() {
+
+            @Override
+            public void open() {
+                // TODO Auto-generated method stub
+                app.saveAutoUpdateProp(true);
+            }
+
+            @Override
+            public void close() {
+                // TODO Auto-generated method stub
+                app.saveAutoUpdateProp(false);
+            }
+        });
